@@ -1,0 +1,214 @@
+﻿body
+{
+    background-color: black;
+}
+
+#m1 {
+    left: 50%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+}
+
+#m2 {
+    top: 25px;
+    left: 52%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+}
+
+#m3 {
+    top: 25px;
+    left: 70%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+    opacity: 0;
+}
+
+#m4 {
+    top: 25px;
+    left: 10%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+    opacity: 0;
+}
+
+#m5 {
+    top: 25px;
+    left: 10%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+    opacity: 0;
+}
+
+#m6 {
+    top: 25px;
+    left: 90%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+    opacity: 0;
+}
+
+#m7 {
+    top: 25px;
+    left: 90%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+    opacity: 0;
+}
+
+#m8 {
+    top: 25px;
+    right: 95%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+    opacity: 0;
+}
+
+#m9 {
+    top: 25px;
+    right: 95%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+    opacity: 0;
+}
+
+
+@keyframes matrix {
+    to {
+        transform: translateY(710px);
+    }
+}
+
+#m1.animate {
+    animation-name: matrix;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#m2.animate {
+    animation-name: matrix;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes matrix1 {
+    from{
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(710px);
+    }
+}
+
+#m3.animate1 {
+    animation-delay: 0.5s;
+    animation-name: matrix1;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#m4.animate1 {
+    animation-delay: 0s;
+    animation-name: matrix1;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#m5.animate1 {
+    animation-delay: 0.16s;
+    animation-name: matrix1;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#m6.animate1 {
+    animation-delay: 0s;
+    animation-name: matrix1;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#m7.animate1 {
+    animation-delay: 0.16s;
+    animation-name: matrix1;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#m8.animate1 {
+    animation-delay: 0.16s;
+    animation-name: matrix1;
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#m9.animate1 {
+    animation-delay: 0.32s;
+    animation-name: matrix1;
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}

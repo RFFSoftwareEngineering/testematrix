@@ -1,0 +1,9 @@
+m1.classList.toggle('animate');
+m2.classList.toggle('animate');
+m3.classList.toggle('animate1');
+m4.classList.toggle('animate1');
+m5.classList.toggle('animate1');
+m6.classList.toggle('animate1');
+m7.classList.toggle('animate1');
+m8.classList.toggle('animate1');
+m9.classList.toggle('animate1');

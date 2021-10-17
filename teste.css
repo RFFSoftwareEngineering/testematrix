@@ -117,6 +117,32 @@
     opacity: 0;
 }
 
+#m10 {
+    top: 25px;
+    right: 85%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+    opacity: 0;
+}
+
+#m11 {
+    top: 25px;
+    right: 85%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+    opacity: 0;
+}
+
 
 @keyframes matrix {
     to {
@@ -205,6 +231,24 @@
 }
 
 #m9.animate1 {
+    animation-delay: 0.32s;
+    animation-name: matrix1;
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#m10.animate1 {
+    animation-delay: 0.16s;
+    animation-name: matrix1;
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#m11.animate1 {
     animation-delay: 0.32s;
     animation-name: matrix1;
     animation-duration: 1.8s;

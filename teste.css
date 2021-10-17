@@ -1663,3 +1663,84 @@
     animation-iteration-count: 4;
     animation-timing-function: linear;
 }
+
+#error {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Goldman", sans-serif;
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    padding: 7px 30px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    background-color: #004900;
+}
+
+label span {
+    position: absolute;
+    display: block;
+}
+
+label span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg,transparent,green);
+}
+
+label:hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+
+label span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(270deg,transparent,green);
+}
+
+label:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+label span:nth-child(2) {
+    top: -100%;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,green);
+}
+
+label:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+label span:nth-child(4) {
+    bottom: -100%;
+    left: 0%;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,green);
+}
+
+label:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}

@@ -871,6 +871,110 @@
     opacity: 0;
 }
 
+#m68 {
+    top: 25px;
+    left: 80%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+    opacity: 0;
+}
+
+#m69 {
+    top: 25px;
+    left: 80%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+    opacity: 0;
+}
+
+#m70 {
+    top: 25px;
+    left: 85%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+    opacity: 0;
+}
+
+#m71 {
+    top: 25px;
+    left: 85%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+    opacity: 0;
+}
+
+#m72 {
+    top: 25px;
+    left: 90%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+    opacity: 0;
+}
+
+#m73 {
+    top: 25px;
+    left: 90%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+    opacity: 0;
+}
+
+#m74 {
+    top: 25px;
+    left: 95%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+    opacity: 0;
+}
+
+#m75 {
+    top: 25px;
+    left: 95%;
+    position: absolute;
+    color: green;
+    font-family: "Goldman", "sans-serif";
+    text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    box-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
+    transition-delay: 1s;
+    background-color: #003300;
+    opacity: 0;
+}
+
 @keyframes matrix {
     to {
         transform: translateY(710px);
@@ -879,9 +983,9 @@
 
 #m1.animate {
     animation-name: matrix;
-    animation-duration: 3.5s;
+    animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -889,7 +993,7 @@
     animation-name: matrix;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -906,9 +1010,9 @@
 #m3.animate1 {
     animation-delay: 0.5s;
     animation-name: matrix1;
-    animation-duration: 3.5s;
+    animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -917,7 +1021,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -926,7 +1030,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -935,7 +1039,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -944,7 +1048,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -953,7 +1057,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -962,7 +1066,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -971,7 +1075,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -980,7 +1084,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -989,7 +1093,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -998,7 +1102,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1007,7 +1111,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1016,7 +1120,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1025,7 +1129,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1034,7 +1138,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1043,7 +1147,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1052,7 +1156,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1061,7 +1165,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1070,7 +1174,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1079,7 +1183,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1088,7 +1192,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1097,7 +1201,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1106,7 +1210,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1115,7 +1219,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1124,7 +1228,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1133,7 +1237,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1142,7 +1246,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1151,7 +1255,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1160,7 +1264,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1169,7 +1273,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1178,7 +1282,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1187,7 +1291,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1196,7 +1300,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1205,7 +1309,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1214,7 +1318,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1223,7 +1327,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1232,7 +1336,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1241,7 +1345,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1250,7 +1354,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1259,7 +1363,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1268,7 +1372,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1277,7 +1381,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1286,7 +1390,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1295,7 +1399,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1304,7 +1408,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1313,7 +1417,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1322,7 +1426,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1331,7 +1435,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1340,7 +1444,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1349,7 +1453,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1358,7 +1462,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1367,7 +1471,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1376,7 +1480,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1385,7 +1489,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1394,7 +1498,7 @@
     animation-name: matrix1;
     animation-duration: 2.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1403,7 +1507,7 @@
     animation-name: matrix1;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1412,7 +1516,7 @@
     animation-name: matrix1;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1421,7 +1525,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1430,7 +1534,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1439,7 +1543,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1448,7 +1552,7 @@
     animation-name: matrix1;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1457,7 +1561,7 @@
     animation-name: matrix1;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1466,7 +1570,7 @@
     animation-name: matrix1;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1475,7 +1579,7 @@
     animation-name: matrix1;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }
 
@@ -1484,6 +1588,78 @@
     animation-name: matrix1;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 4;
+    animation-timing-function: linear;
+}
+
+#m68.animate1 {
+    animation-delay: 1.48s;
+    animation-name: matrix1;
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 4;
+    animation-timing-function: linear;
+}
+
+#m69.animate1 {
+    animation-delay: 1.64s;
+    animation-name: matrix1;
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 4;
+    animation-timing-function: linear;
+}
+
+#m70.animate1 {
+    animation-delay: 1s;
+    animation-name: matrix1;
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 4;
+    animation-timing-function: linear;
+}
+
+#m71.animate1 {
+    animation-delay: 1.16s;
+    animation-name: matrix1;
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 4;
+    animation-timing-function: linear;
+}
+
+#m72.animate1 {
+    animation-delay: 1.48s;
+    animation-name: matrix1;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 4;
+    animation-timing-function: linear;
+}
+
+#m73.animate1 {
+    animation-delay: 1.64s;
+    animation-name: matrix1;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 4;
+    animation-timing-function: linear;
+}
+
+#m74.animate1 {
+    animation-delay: 2.0s;
+    animation-name: matrix1;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 4;
+    animation-timing-function: linear;
+}
+
+#m75.animate1 {
+    animation-delay: 2.0s;
+    animation-name: matrix1;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 4;
     animation-timing-function: linear;
 }

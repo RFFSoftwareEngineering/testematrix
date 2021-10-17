@@ -1683,6 +1683,7 @@
     transition-delay: 1s;
     text-shadow: 0 0 10px green, 0 0 40px green,0 0 80px green;
     background-color: #004900;
+    opacity: 0;
 }
 
 label span {
@@ -1743,4 +1744,41 @@ label:hover span:nth-child(4) {
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
+}
+
+@keyframes matrix2 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;        
+    }
+}
+
+#error.animate2 {
+    animation-delay: 6s;
+    animation-name: matrix2;
+    animation-duration: 1.3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes matrix3 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+#error.animate3 {
+    animation-delay: 11.5s;
+    animation-name: matrix3;
+    animation-duration: 2.3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
 }

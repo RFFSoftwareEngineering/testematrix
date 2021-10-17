@@ -75,3 +75,4 @@ m74.classList.toggle('animate1');
 m75.classList.toggle('animate1');
 error.classList.toggle('animate2');
 error.classList.toggle('animate3');
+teste5.classList.toggle('animate5');
